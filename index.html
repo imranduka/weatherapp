@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Weather App Project</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <h1>Weather App</h1>
+    <div class="error-message" style="display: none;">
+        <div class="error-content">
+
+            <p class="error-text">This is an error message.</p>
+
+        </div>
+
+    </div>
+    <div class="container">
+
+        <div class="weather-input">
+            <h3>New York City, US</h3>
+            <input class="city-name" type="text" placeholder="Search location...">
+            <button class="search-btn">Search</button>
+        </div>
+
+
+
+
+
+        <div class="weather-forecast">
+
+
+
+            <div class="weather-card">
+
+                <li id="currentDay" class="date">Mon</li>
+                <li><img src="img/wi_clear-night.svg" id="currentImage" alt="Weather Image"></li>
+                <div class="temp">
+
+                    <li class="min-temp">40 °F</li>
+                    <li class="max-temp">70 °F</li>
+
+                </div>
+                <li id="currentCondition" class="condition">Cloudy</li>
+
+
+            </div>
+
+            <div class="weather-card">
+
+                <li id="dayTwo" class="date">Tue</li>
+                <li><img src="img/wi_cloudy.svg" id="dayTwoImage" alt="Weather Image"></li>
+                <div class="temp">
+
+                    <li class="min-temp">40 °F</li>
+                    <li class="max-temp">70 °F</li>
+
+                </div>
+                <li id="dayTwoCondition" class="condition">Cloudy</li>
+
+            </div>
+
+            <div class="weather-card">
+
+                <li id="dayThree" class="date">Wed</li>
+                <li><img src="img/wi_partly-cloudy-day.svg" id="dayThreeImage" alt="Weather Image"></li>
+                <div class="temp">
+
+                    <li class="min-temp">40 °F</li>
+                    <li class="max-temp">70 °F</li>
+
+                </div>
+                <li id="dayThreeCondition" class="condition">Cloudy</li>
+
+            </div>
+
+            <div class="weather-card">
+
+                <li id="dayFour" class="date">Thu</li>
+                <li><img src="img/wi_partly-cloudy-night.svg" id="dayFourImage" alt="Weather Image"></li>
+                <div class="temp">
+
+                    <li class="min-temp">40 °F</li>
+                    <li class="max-temp">70 °F</li>
+
+                </div>
+                <li id="dayFourCondition" class="condition">Cloudy</li>
+
+            </div>
+
+            <div class="weather-card">
+
+                <li id="dayFive" class="date">Fri</li>
+                <li><img src="img/wi_thunderstorms-rain.svg" id="dayFiveImage" alt="Weather Image"></li>
+                <div class="temp">
+
+                    <li class="min-temp">40 °F</li>
+                    <li class="max-temp">70 °F</li>
+
+                </div>
+                <li id="dayFiveCondition" class="condition">Cloudy</li>
+
+            </div>
+
+
+        </div>
+
+
+
+
+
+    </div>
+
+
+</body>
+
+</html>

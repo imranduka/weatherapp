@@ -1,0 +1,230 @@
+/* Import Google font - Open Sans */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+
+}
+
+body {
+    background: #E3F2FD;
+}
+
+h1 {
+    margin: 0;
+    background: #5372F0;
+    text-align: center;
+    color: white;
+    padding: 15px 0px;
+    margin-bottom: 10px;
+    font-size: 1.75rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 30px 0px 30px;
+
+
+}
+
+.weather-input {
+    width: 40vw;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+
+
+
+.search-btn {
+    margin-top: 20px;
+    padding: 10px;
+    color: white;
+    background: #5372F0;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-btn:hover {
+    background: #3F5ED2;
+    transition: .2s;
+}
+
+.city-name {
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+
+
+}
+
+.weather-forecast {
+
+    gap: 20px;
+    display: flex;
+    /* Use flexbox for layout */
+    justify-content: space-between;
+    /* Distribute cards across the width */
+
+}
+
+.weather-card {
+    flex: 1;
+    background: #6C757D;
+    border-radius: 4px;
+    padding: 20px 0px 15px 0;
+    text-align: center;
+}
+
+@media screen and (max-width: 1400px) {}
+
+h2 {
+    padding-bottom: 5px;
+}
+
+h6 {
+
+    padding: 5px 0px;
+
+}
+
+img {
+    width: 6vw;
+    padding-top: 5px;
+
+}
+
+.forecast-title {
+
+    padding: 10px 0px;
+
+}
+
+
+.weather-card li {
+    list-style-type: none;
+    color: white;
+    /* Apply padding to all list items */
+}
+
+.temp {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.temp li {
+
+    padding: 0px 20px;
+
+}
+
+
+.current-weather {
+    border-radius: 5px;
+    padding: 20px 70px 20px 20px;
+    color: #fff;
+    background: #5372F0
+}
+
+.current-weather h2 {
+
+    text-align: center;
+
+}
+
+
+
+/* Styling for the error message */
+/* Styling for the error message */
+.error-message {
+    width: 40vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color: #f44336;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+
+.error-text {
+
+    font-weight: bold;
+
+
+}
+
+.close-btn {
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1;
+}
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    /* Other existing styles */
+
+    .error-message {
+        display: none;
+    }
+
+    .weather-forecast {
+        flex-direction: column;
+        /* Switch to a column layout for weather cards */
+    }
+
+    /* Additional styles for column layout if needed */
+    .weather-card {
+        margin-bottom: 20px;
+        /* Add some space between the weather cards */
+        width: 100%;
+        /* Ensure cards take full width within the column */
+    }
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 480px) {
+
+    h3 {
+
+        font-size: 16px;
+
+    }
+
+    .city-name {
+
+        font-size: 14px;
+
+    }
+
+
+}
